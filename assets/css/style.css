@@ -203,6 +203,31 @@ body {
 	flex-direction: column;
 }
 
-.parrafos{
+.parrafos.flex-container{
 	flex-direction: row;
+	justify-content: center;
+
+}
+
+.col{
+	width: 40%;
+	margin: 15px;
+}
+
+.download{
+	color: white;
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+
+.download:hover{
+	color:#18BC9C;
+	background-color: white;
+}
+
+.centrar.flex-container{
+	justify-content: center;
 }
